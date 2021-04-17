@@ -6,7 +6,7 @@
     "jenkins-runner.jobs": {
         "ide": {
             "runWith": "mypipeline",
-            "name": "ide"
+            "name": "ide",
             "isDefault": true
         }
     },
