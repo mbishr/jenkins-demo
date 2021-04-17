@@ -1,3 +1,21 @@
+// {
+//     "java.configuration.updateBuildConfiguration": "interactive"
+// }
+
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "jenkins-runner.jobs": {
+        "ide": {
+            "runWith": "mypipeline",
+            "name": "ide"
+            "isDefault": true
+        }
+    },
+    "jenkins-runner.hostconfig": {
+        "mypipeline": {
+            "url": "http://40.113.194.206:8080/",
+            "user": "admin",
+            "password": "hgrvkN!@00",
+            "userCrumIssuer": true
+        }
+    }
 }
