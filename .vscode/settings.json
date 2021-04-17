@@ -10,7 +10,7 @@
             "isDefault": true
         }
     },
-    "jenkins-runner.hostconfig": {
+    "jenkins-runner.hostConfigs": {
         "mypipeline": {
             "url": "http://40.113.194.206:8080/",
             "user": "admin",
